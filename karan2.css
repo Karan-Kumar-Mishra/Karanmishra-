@@ -1,0 +1,195 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black
+}
+#header{
+    color: white;
+    display: flex;
+    margin: 4rem;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+#header > div {
+    padding: 1rem;
+    border: 3px solid green;
+    border-radius: 2rem;
+    font-size: 2rem;
+    position: sticky;
+    transition-property: color ;
+    transition-duration: 1s;
+}
+#header >div:hover{
+    color: black;
+    background-color: white;
+}
+.content{
+    color: white;
+    font-size: 3rem;
+    margin:5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+#icon{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+#icon >div{
+  font-size: 4rem;
+  padding: 3rem;
+}
+#myphoto{
+    border-radius: 50%;
+    position: relative;
+    left: 50rem;
+    top:-15rem;
+    height: 25rem;
+}
+p{
+  font-size: 1.5rem;
+  position: relative;
+  left: -34rem;
+  top:20rem;
+}
+hr{
+  width: 50%;
+}
+@media  screen and (min-width: 300px) and (max-width: 450px)
+and (min-height: 600px) and (max-height: 950px)
+{
+  /* for phone */
+  *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 50vh;
+}
+#header{
+    color: white;
+    display: flex;
+    margin: 4rem;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+#header > div {
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 3px solid green;
+    border-radius: 2rem;
+    font-size: 2rem;
+    position: sticky;
+    transition-property: color ;
+    transition-duration: 1s;
+}
+#header > div:hover{
+    color: black;
+    background-color: white;
+}
+.content{
+    color: white;
+    font-size: 2rem;
+    margin:5rem;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top:25rem;
+}
+#icon{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+#icon >div{
+  font-size: 4rem;
+  padding: 2rem;
+}
+#myphoto{
+    border-radius: 50%;
+    position: relative;
+    left: 1rem;
+    top:-25rem;
+    height: 25rem;
+}
+p{
+  font-size: 0.5rem;
+  position: relative;
+  left: -34rem;
+  top:70rem;
+}
+hr{
+  width: 50%;
+}
+}
+@media screen and (min-width: 800px) and (max-width: 1300px)
+and (min-height: 800px) and (max-height: 1180px)
+{
+  /*for tab*/
+
+  *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black
+}
+#header{
+    color: white;
+    display: flex;
+    margin: 4rem;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+#header > div {
+    padding: 1rem;
+    border: 3px solid green;
+    border-radius: 2rem;
+    font-size: 2rem;
+    position: sticky;
+    transition-property: color ;
+    transition-duration: 1s;
+}
+#header >div:hover{
+    color: black;
+    background-color: white;
+}
+.content{
+    color: white;
+    font-size: 3rem;
+    margin:5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+#icon{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+#icon >div{
+  font-size: 4rem;
+  padding: 3rem;
+}
+#myphoto{
+    border-radius: 50%;
+    position: relative;
+    left: 25rem;
+    top:-10rem;
+    height: 25rem;
+}
+p{
+  font-size: 1.5rem;
+  position: relative;
+  left: -20rem;
+  top:20rem;
+}
+hr{
+  width: 50%;
+}
+}
